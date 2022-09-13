@@ -4,7 +4,7 @@ Please Visit original source page to **"VBEThemeColorEditor"**(https://github.co
 .    
 .    
 
- **Orifinal**
+ **Original**
  
 ![original](/ThemeEditor.png)
 
