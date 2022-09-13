@@ -37,10 +37,10 @@ Download :: https://github.com/theangkko/VBEThemeColorEditorO2019/raw/main/VBECo
 .    
 
 
-다크모드를 적용하면 VBE창의 메뉴에 접근이 불가합니다.
+다크모드를 적용하면 VBE창의 메뉴에 접근이 불가합니다.    
 After apply VBE Color Editor, VBE Option Window is not ablable due to any problem. (also Original version)
 
-그래서 Font, Font Size를 설정하는 Registry 입력버튼을 추가했습니다
+그래서 Font, Font Size를 설정하는 Registry 입력버튼을 추가했습니다    
 Add the BUTTONS for -apply Registry of Font, Font size- 
 
 
