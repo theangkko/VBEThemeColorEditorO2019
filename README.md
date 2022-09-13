@@ -1,13 +1,18 @@
 # VBEColorTheme    
 
-Please Visit orifinal source pageto **"VBEThemeColorEditor"**(https://github.com/gallaux/VBEThemeColorEditor)
+Please Visit original source page to **"VBEThemeColorEditor"**(https://github.com/gallaux/VBEThemeColorEditor)
 .    
 .    
+
+ **Orifinal**
+ 
+![original](/ThemeEditor.png)
+
 .    
 __________________________________________________     
-    
-    
-
+.    
+.    
+.    
 # VBEColorThemeO2019
 VBE Color Theme O2019 adjusted
 
@@ -35,10 +40,6 @@ Download :: https://github.com/theangkko/VBEThemeColorEditorO2019/raw/main/VBECo
       
 .   
 .   
-
- **Orifinal**
- 
-![original](/ThemeEditor.png)
 
 
 
