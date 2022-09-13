@@ -1,4 +1,4 @@
-# VBEColorTheme    
+# VBEColorThemeEditor    
 
 Please Visit original source page to **"VBEThemeColorEditor"**(https://github.com/gallaux/VBEThemeColorEditor)
 .    
@@ -13,7 +13,7 @@ __________________________________________________
 .    
 .    
 .    
-# VBEColorThemeO2019
+# VBEColorThemeEditor_O2019
 VBE Color Theme O2019 adjusted
 
 - 윈도우가 업데이트 될 때마다, vbe7.dll / vbe6.dll 파일이 원상복구되어 다시 패치가 필요해서 자동모드**Apply AUTO** 버튼을 만들었습니다.    
