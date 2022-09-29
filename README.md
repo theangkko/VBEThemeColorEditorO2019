@@ -16,7 +16,7 @@ __________________________________________________
 # VBEColorThemeEditor_O2019 Ver2.1
 VBE Color Theme O2019 adjusted
 
-사용법 
+사용법
 순서1 :: 버튼 2) Add to Registry를 클릭Click합니다.
 순서2 :: 버튼 녹색Apply AUTO를 클릭Click합니다.
 
