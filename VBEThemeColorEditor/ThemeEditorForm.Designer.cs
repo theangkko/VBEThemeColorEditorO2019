@@ -97,9 +97,9 @@
             this.buttonModifyDLL.Location = new System.Drawing.Point(14, 273);
             this.buttonModifyDLL.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.buttonModifyDLL.Name = "buttonModifyDLL";
-            this.buttonModifyDLL.Size = new System.Drawing.Size(164, 23);
+            this.buttonModifyDLL.Size = new System.Drawing.Size(191, 23);
             this.buttonModifyDLL.TabIndex = 0;
-            this.buttonModifyDLL.Text = "Apply Theme to VBE.DLL ";
+            this.buttonModifyDLL.Text = "1) Apply Theme to VBE.DLL ";
             this.buttonModifyDLL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonModifyDLL.UseVisualStyleBackColor = false;
             this.buttonModifyDLL.Click += new System.EventHandler(this.buttonModifyDLL_Click);
@@ -107,13 +107,14 @@
             // statusStrip
             // 
             this.statusStrip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.statusStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel,
             this.toolStripStatusLabel1});
-            this.statusStrip.Location = new System.Drawing.Point(0, 446);
+            this.statusStrip.Location = new System.Drawing.Point(0, 468);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip.Size = new System.Drawing.Size(321, 22);
+            this.statusStrip.Size = new System.Drawing.Size(346, 22);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "statusStrip";
             // 
@@ -185,7 +186,7 @@
             this.groupBoxColors.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBoxColors.Name = "groupBoxColors";
             this.groupBoxColors.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBoxColors.Size = new System.Drawing.Size(293, 242);
+            this.groupBoxColors.Size = new System.Drawing.Size(307, 242);
             this.groupBoxColors.TabIndex = 4;
             this.groupBoxColors.TabStop = false;
             this.groupBoxColors.Text = "Theme colors";
@@ -533,13 +534,14 @@
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.DimGray;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(321, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(346, 24);
             this.menuStrip1.TabIndex = 39;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -586,11 +588,11 @@
             // 
             this.AddRegistry.BackColor = System.Drawing.Color.Azure;
             this.AddRegistry.FlatAppearance.BorderSize = 0;
-            this.AddRegistry.Location = new System.Drawing.Point(14, 302);
+            this.AddRegistry.Location = new System.Drawing.Point(15, 330);
             this.AddRegistry.Name = "AddRegistry";
-            this.AddRegistry.Size = new System.Drawing.Size(109, 23);
+            this.AddRegistry.Size = new System.Drawing.Size(191, 23);
             this.AddRegistry.TabIndex = 42;
-            this.AddRegistry.Text = "Add to Registry";
+            this.AddRegistry.Text = "2) Add to Registry";
             this.AddRegistry.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AddRegistry.UseVisualStyleBackColor = false;
             this.AddRegistry.Click += new System.EventHandler(this.AddRegistry_Click);
@@ -611,7 +613,7 @@
             // 
             this.ApplyFont.BackColor = System.Drawing.Color.Azure;
             this.ApplyFont.FlatAppearance.BorderSize = 0;
-            this.ApplyFont.Location = new System.Drawing.Point(198, 356);
+            this.ApplyFont.Location = new System.Drawing.Point(212, 379);
             this.ApplyFont.Name = "ApplyFont";
             this.ApplyFont.Size = new System.Drawing.Size(109, 23);
             this.ApplyFont.TabIndex = 45;
@@ -631,9 +633,9 @@
             // 
             // selectedFont
             // 
-            this.selectedFont.Location = new System.Drawing.Point(105, 356);
+            this.selectedFont.Location = new System.Drawing.Point(105, 379);
             this.selectedFont.Name = "selectedFont";
-            this.selectedFont.Size = new System.Drawing.Size(87, 21);
+            this.selectedFont.Size = new System.Drawing.Size(101, 21);
             this.selectedFont.TabIndex = 47;
             this.selectedFont.Text = "D2Coding";
             this.selectedFont.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -642,7 +644,7 @@
             // 
             this.labelfont.AutoSize = true;
             this.labelfont.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelfont.Location = new System.Drawing.Point(13, 361);
+            this.labelfont.Location = new System.Drawing.Point(13, 384);
             this.labelfont.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelfont.Name = "labelfont";
             this.labelfont.Size = new System.Drawing.Size(38, 12);
@@ -653,7 +655,7 @@
             // 
             this.labelFontSize.AutoSize = true;
             this.labelFontSize.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelFontSize.Location = new System.Drawing.Point(12, 393);
+            this.labelFontSize.Location = new System.Drawing.Point(12, 416);
             this.labelFontSize.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelFontSize.Name = "labelFontSize";
             this.labelFontSize.Size = new System.Drawing.Size(69, 12);
@@ -664,7 +666,7 @@
             // 
             this.ApplyFontSize.BackColor = System.Drawing.Color.Azure;
             this.ApplyFontSize.FlatAppearance.BorderSize = 0;
-            this.ApplyFontSize.Location = new System.Drawing.Point(198, 388);
+            this.ApplyFontSize.Location = new System.Drawing.Point(212, 411);
             this.ApplyFontSize.Name = "ApplyFontSize";
             this.ApplyFontSize.Size = new System.Drawing.Size(109, 23);
             this.ApplyFontSize.TabIndex = 49;
@@ -675,9 +677,9 @@
             // 
             // textBoxFontSize
             // 
-            this.textBoxFontSize.Location = new System.Drawing.Point(105, 390);
+            this.textBoxFontSize.Location = new System.Drawing.Point(105, 413);
             this.textBoxFontSize.Name = "textBoxFontSize";
-            this.textBoxFontSize.Size = new System.Drawing.Size(87, 21);
+            this.textBoxFontSize.Size = new System.Drawing.Size(101, 21);
             this.textBoxFontSize.TabIndex = 50;
             this.textBoxFontSize.Text = "12";
             this.textBoxFontSize.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -687,9 +689,10 @@
             // 
             this.buttonModifyDLLauto1.BackColor = System.Drawing.Color.Aquamarine;
             this.buttonModifyDLLauto1.FlatAppearance.BorderSize = 0;
-            this.buttonModifyDLLauto1.Location = new System.Drawing.Point(198, 274);
+            this.buttonModifyDLLauto1.Font = new System.Drawing.Font("Gulim", 11F);
+            this.buttonModifyDLLauto1.Location = new System.Drawing.Point(211, 274);
             this.buttonModifyDLLauto1.Name = "buttonModifyDLLauto1";
-            this.buttonModifyDLLauto1.Size = new System.Drawing.Size(109, 51);
+            this.buttonModifyDLLauto1.Size = new System.Drawing.Size(109, 79);
             this.buttonModifyDLLauto1.TabIndex = 51;
             this.buttonModifyDLLauto1.Text = "Apply AUTO";
             this.buttonModifyDLLauto1.UseVisualStyleBackColor = false;
@@ -699,7 +702,7 @@
             // 
             this.linkLabel01.AutoSize = true;
             this.linkLabel01.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.linkLabel01.Location = new System.Drawing.Point(103, 424);
+            this.linkLabel01.Location = new System.Drawing.Point(137, 446);
             this.linkLabel01.Name = "linkLabel01";
             this.linkLabel01.Size = new System.Drawing.Size(184, 12);
             this.linkLabel01.TabIndex = 52;
@@ -712,7 +715,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(321, 468);
+            this.ClientSize = new System.Drawing.Size(346, 490);
             this.Controls.Add(this.linkLabel01);
             this.Controls.Add(this.buttonModifyDLLauto1);
             this.Controls.Add(this.textBoxFontSize);
@@ -731,7 +734,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "ThemeEditorForm";
-            this.Text = "VBE Theme Editor (O2019)";
+            this.Text = "VBE Theme Editor (O2019) v2.1";
             this.Load += new System.EventHandler(this.ThemeEditorForm_Load);
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();

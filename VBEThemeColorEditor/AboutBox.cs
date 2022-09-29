@@ -20,8 +20,7 @@ namespace VBEThemeColorEditor
 This application replaces the default colors with custom palettes that can be saved and loaded (2 themes are already provided).
 The application can only run in administrator mode.
 
-Based on the information found on: https://github.com/dimitropoulos/VBECustomColors
-* modified for office2019~o365_ VBE7.1 by thekkom(2022-04-01)";
+Based on the information found on: https://github.com/dimitropoulos/VBECustomColors";
         }
 
         #region Assembly Attribute Accessors
@@ -112,6 +111,23 @@ Based on the information found on: https://github.com/dimitropoulos/VBECustomCol
         private void textBoxDescription_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void labelGithubAddressModified_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                // Change the color of the link text by setting LinkVisited
+                // to true.
+                labelGithubAddressModified.LinkVisited = true;
+                //Call the Process.Start method to open the default browser
+                //with a URL:
+                System.Diagnostics.Process.Start("https://github.com/theangkko/VBEThemeColorEditorO2019");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open link that was clicked.");
+            }
         }
     }
 }
