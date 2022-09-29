@@ -124,7 +124,7 @@ Based on the information found on: https://github.com/dimitropoulos/VBECustomCol
                 //with a URL:
                 System.Diagnostics.Process.Start("https://github.com/theangkko/VBEThemeColorEditorO2019");
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 MessageBox.Show("Unable to open link that was clicked.");
             }

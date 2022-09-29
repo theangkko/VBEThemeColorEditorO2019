@@ -148,11 +148,8 @@ namespace VBEThemeColorEditor
 
         private void buttonModifyDLL_Click(object sender, EventArgs e)
         {
-           
             string excelVersion = getExcelVersion ();
       
-
-
             // Reset variables
             FoundIteration = 0;
             FoundSequences = 0;
@@ -520,13 +517,14 @@ namespace VBEThemeColorEditor
 
         private void buttonModifyDLLauto1_Click(object sender, EventArgs e)
         {
-            string defaultdir = SetDefaultDir();
-
             //string sFileName = @"C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\VBA\VBA7.1\VBE7.DLL";
+            string defaultdir = SetDefaultDir();
             string sFileName = defaultdir + @"\VBE7.DLL";
+            
             PatchFile(sFileName, sFileName + ".BAK");
 
-
+            AddRegistry_Click(null, new EventArgs());
+            //AddRegistry.PerformClick();
         }
 
         private void linkLabel01_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -535,7 +533,7 @@ namespace VBEThemeColorEditor
             {
                 VisitLink();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show("Unable to open link that was clicked.");
             }
