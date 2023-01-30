@@ -29,7 +29,7 @@ VBE Color Theme O2019 adjusted
 
 
 
-Download :: https://github.com/theangkko/VBEThemeColorEditorO2019/raw/main/VBEColorThemeO2019.zip     
+Download :: https://github.com/theangkko/VBEThemeColorEditorO2019/releases/
 .    
 .    
 .   
