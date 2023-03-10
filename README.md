@@ -29,6 +29,22 @@ VBE Color Theme O2019 adjusted
 
 
 
+____________________________________________________
+(Added on 2023-03-10)
+How to Use
+No1 :: Click the large Green color button "Apply AUTO"
+No2 :: Back ground Color is shown as you want, click the "2)Add to Registry"
+
+When color theme has problem after excel update (by automatically by MS), Click once again "Apply AUTO"
+
+* Caution
+After patch, you cannot access font size, font family in VBE Option window due to some reason.
+Using Font / Font size input at bottom of window, you can change/apply those.
+____________________________________________________
+
+
+
+
 Download :: https://github.com/theangkko/VBEThemeColorEditorO2019/releases/
 .    
 .    
