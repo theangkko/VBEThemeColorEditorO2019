@@ -12,7 +12,7 @@ Please Visit original source page to **"VBEThemeColorEditor"**(https://github.co
 
 ---
 
-Based on the information found on: https://github.com/dimitropoulos/VBECustomColors alt tag
+Based on the information found on: https://github.com/dimitropoulos/VBECustomColors 
 
 ![image](https://github.com/theangkko/VBEThemeColorEditorO2019/assets/75212211/3775a99d-3c00-4df3-8513-6f96dfdb07a7)
 
