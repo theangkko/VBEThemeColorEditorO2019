@@ -61,11 +61,10 @@ Download :: https://github.com/theangkko/VBEThemeColorEditorO2019/releases/
 **Modified**
 
 ![modified](/MainWindowO2019.jpg)
-  
-      
-.   
-.   
 
+<BR><BR>  
+
+![image](https://github.com/theangkko/VBEThemeColorEditorO2019/assets/75212211/adfa74cc-487b-420f-a862-a40bc7f49dc1)
 
 
 .    
@@ -82,13 +81,6 @@ So, add the BUTTONS for -apply Registry of Font, Font size-
 <img src="/ErrorVBEOptionInput.png" width="500">
 .    
 .    
-
-.    
-
-.    
-.    
-
-
 
 
 
