@@ -1,6 +1,6 @@
 
-# VBEColorThemeEditor_O2019 Ver2.1
-VBE Color Theme O2019 adjusted
+# VBEColorThemeEditor_O2019
+VBE Color Theme O2019 Ver2.1
 
 
 ![modified](/MainWindowO2019.jpg)
