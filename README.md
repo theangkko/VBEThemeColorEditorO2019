@@ -68,8 +68,6 @@ So, add the BUTTONS for -apply Registry of Font, Font size-
 
 # VBEColorThemeEditor    
 Please Visit original source page to **"VBEThemeColorEditor"**(https://github.com/gallaux/VBEThemeColorEditor)
-
- **Original**
  
 ![original](/ThemeEditor.png)
 
