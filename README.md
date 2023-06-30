@@ -59,8 +59,9 @@ So, add the BUTTONS for -apply Registry of Font, Font size-
 
 
 <img src="/ErrorVBEOptionInput.png" width="500">
-.    
-.    
+
+
+<br><br><br><br><br><br>
 
 
 ---
@@ -68,8 +69,9 @@ So, add the BUTTONS for -apply Registry of Font, Font size-
 # VBEColorThemeEditor    
 
 Please Visit original source page to **"VBEThemeColorEditor"**(https://github.com/gallaux/VBEThemeColorEditor)
-.    
-.    
+
+
+  <br><br><br>
 
  **Original**
  
