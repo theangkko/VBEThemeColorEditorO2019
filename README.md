@@ -1,29 +1,9 @@
-# VBEColorThemeEditor    
 
-Please Visit original source page to **"VBEThemeColorEditor"**(https://github.com/gallaux/VBEThemeColorEditor)
-.    
-.    
-
- **Original**
- 
-![original](/ThemeEditor.png)
-
-<br><br>
-
----
-
-Based on the information found on: https://github.com/dimitropoulos/VBECustomColors 
-
-![image](https://github.com/theangkko/VBEThemeColorEditorO2019/assets/75212211/3775a99d-3c00-4df3-8513-6f96dfdb07a7)
-
-
-
-__________________________________________________     
-.    
-.    
-.    
 # VBEColorThemeEditor_O2019 Ver2.1
 VBE Color Theme O2019 adjusted
+
+
+![modified](/MainWindowO2019.jpg)
 
 사용법
 순서1 :: 버튼 2) Add to Registry를 클릭Click합니다.
@@ -52,26 +32,15 @@ When color theme has problem after excel update (by automatically by MS), Click 
 After patch, you cannot access font size, font family in VBE Option window due to some reason.
 Using Font / Font size input at bottom of window, you can change/apply those.
 
-
 ____________________________________________________
 
 
-
-
 Download :: https://github.com/theangkko/VBEThemeColorEditorO2019/releases/
-.    
-.    
-.   
-
-      
-
-
-
-**Modified**
-
-![modified](/MainWindowO2019.jpg)
 
 <BR><BR>  
+
+
+**Modified After / Before**
 
 ![image](https://github.com/theangkko/VBEThemeColorEditorO2019/assets/75212211/adfa74cc-487b-420f-a862-a40bc7f49dc1)
 
@@ -90,6 +59,33 @@ So, add the BUTTONS for -apply Registry of Font, Font size-
 <img src="/ErrorVBEOptionInput.png" width="500">
 .    
 .    
+
+
+---
+
+# VBEColorThemeEditor    
+
+Please Visit original source page to **"VBEThemeColorEditor"**(https://github.com/gallaux/VBEThemeColorEditor)
+.    
+.    
+
+ **Original**
+ 
+![original](/ThemeEditor.png)
+
+<br><br>
+
+---
+
+Based on the information found on: https://github.com/dimitropoulos/VBECustomColors 
+
+![image](https://github.com/theangkko/VBEThemeColorEditorO2019/assets/75212211/3775a99d-3c00-4df3-8513-6f96dfdb07a7)
+
+
+
+__________________________________________________     
+
+
 
 
 
