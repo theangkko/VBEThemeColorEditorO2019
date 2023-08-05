@@ -5,6 +5,10 @@
 .Refer
 Refer_NotSync
 
+
+Refer/
+refer/
+
 # User-specific files
 *.rsuser
 *.suo
@@ -17,6 +21,8 @@ Refer_NotSync
 
 # Mono auto generated files
 mono_crash.*
+
+
 
 # Build results
 [Dd]ebug/

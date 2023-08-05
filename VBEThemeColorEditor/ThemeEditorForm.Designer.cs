@@ -94,12 +94,12 @@
             // 
             this.buttonModifyDLL.BackColor = System.Drawing.Color.DarkGray;
             this.buttonModifyDLL.FlatAppearance.BorderSize = 0;
-            this.buttonModifyDLL.Location = new System.Drawing.Point(14, 273);
-            this.buttonModifyDLL.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.buttonModifyDLL.Location = new System.Drawing.Point(20, 410);
+            this.buttonModifyDLL.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.buttonModifyDLL.Name = "buttonModifyDLL";
-            this.buttonModifyDLL.Size = new System.Drawing.Size(191, 23);
+            this.buttonModifyDLL.Size = new System.Drawing.Size(219, 64);
             this.buttonModifyDLL.TabIndex = 0;
-            this.buttonModifyDLL.Text = "1) Apply Theme to VBE.DLL ";
+            this.buttonModifyDLL.Text = "1) Apply Theme \r\n    to VBE.DLL ";
             this.buttonModifyDLL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonModifyDLL.UseVisualStyleBackColor = false;
             this.buttonModifyDLL.Click += new System.EventHandler(this.buttonModifyDLL_Click);
@@ -111,10 +111,10 @@
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel,
             this.toolStripStatusLabel1});
-            this.statusStrip.Location = new System.Drawing.Point(0, 468);
+            this.statusStrip.Location = new System.Drawing.Point(0, 713);
             this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip.Size = new System.Drawing.Size(346, 22);
+            this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 23, 0);
+            this.statusStrip.Size = new System.Drawing.Size(494, 22);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "statusStrip";
             // 
@@ -122,12 +122,12 @@
             // 
             this.toolStripStatusLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
-            this.toolStripStatusLabel.Size = new System.Drawing.Size(0, 17);
+            this.toolStripStatusLabel.Size = new System.Drawing.Size(0, 15);
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 15);
             // 
             // notifyIcon
             // 
@@ -139,10 +139,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.Location = new System.Drawing.Point(91, 19);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button1.Location = new System.Drawing.Point(130, 28);
+            this.button1.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 21);
+            this.button1.Size = new System.Drawing.Size(43, 32);
             this.button1.TabIndex = 3;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.UpdateColor);
@@ -182,11 +182,11 @@
             this.groupBoxColors.Controls.Add(this.label1);
             this.groupBoxColors.Controls.Add(this.button1);
             this.groupBoxColors.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.groupBoxColors.Location = new System.Drawing.Point(14, 26);
-            this.groupBoxColors.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBoxColors.Location = new System.Drawing.Point(20, 39);
+            this.groupBoxColors.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.groupBoxColors.Name = "groupBoxColors";
-            this.groupBoxColors.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBoxColors.Size = new System.Drawing.Size(307, 242);
+            this.groupBoxColors.Padding = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.groupBoxColors.Size = new System.Drawing.Size(439, 363);
             this.groupBoxColors.TabIndex = 4;
             this.groupBoxColors.TabStop = false;
             this.groupBoxColors.Text = "Theme colors";
@@ -194,10 +194,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(158, 23);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(226, 34);
+            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 12);
+            this.label9.Size = new System.Drawing.Size(77, 18);
             this.label9.TabIndex = 34;
             this.label9.Text = "Color 09";
             // 
@@ -205,10 +205,10 @@
             // 
             this.button9.BackColor = System.Drawing.Color.Red;
             this.button9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button9.Location = new System.Drawing.Point(218, 19);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button9.Location = new System.Drawing.Point(311, 28);
+            this.button9.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(30, 21);
+            this.button9.Size = new System.Drawing.Size(43, 32);
             this.button9.TabIndex = 33;
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.UpdateColor);
@@ -216,10 +216,10 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(158, 50);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(226, 75);
+            this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(51, 12);
+            this.label10.Size = new System.Drawing.Size(77, 18);
             this.label10.TabIndex = 32;
             this.label10.Text = "Color 10";
             // 
@@ -227,10 +227,10 @@
             // 
             this.button10.BackColor = System.Drawing.Color.Red;
             this.button10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button10.Location = new System.Drawing.Point(218, 45);
-            this.button10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button10.Location = new System.Drawing.Point(311, 68);
+            this.button10.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(30, 21);
+            this.button10.Size = new System.Drawing.Size(43, 32);
             this.button10.TabIndex = 31;
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.UpdateColor);
@@ -239,10 +239,10 @@
             // 
             this.button15.BackColor = System.Drawing.Color.Red;
             this.button15.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button15.Location = new System.Drawing.Point(218, 181);
-            this.button15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button15.Location = new System.Drawing.Point(311, 272);
+            this.button15.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(30, 21);
+            this.button15.Size = new System.Drawing.Size(43, 32);
             this.button15.TabIndex = 21;
             this.button15.UseVisualStyleBackColor = false;
             this.button15.Click += new System.EventHandler(this.UpdateColor);
@@ -251,10 +251,10 @@
             // 
             this.button16.BackColor = System.Drawing.Color.Red;
             this.button16.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button16.Location = new System.Drawing.Point(218, 208);
-            this.button16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button16.Location = new System.Drawing.Point(311, 312);
+            this.button16.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(30, 21);
+            this.button16.Size = new System.Drawing.Size(43, 32);
             this.button16.TabIndex = 19;
             this.button16.UseVisualStyleBackColor = false;
             this.button16.Click += new System.EventHandler(this.UpdateColor);
@@ -263,10 +263,10 @@
             // 
             this.button14.BackColor = System.Drawing.Color.Red;
             this.button14.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button14.Location = new System.Drawing.Point(218, 154);
-            this.button14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button14.Location = new System.Drawing.Point(311, 231);
+            this.button14.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(30, 21);
+            this.button14.Size = new System.Drawing.Size(43, 32);
             this.button14.TabIndex = 23;
             this.button14.UseVisualStyleBackColor = false;
             this.button14.Click += new System.EventHandler(this.UpdateColor);
@@ -275,10 +275,10 @@
             // 
             this.button12.BackColor = System.Drawing.Color.Red;
             this.button12.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button12.Location = new System.Drawing.Point(218, 100);
-            this.button12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button12.Location = new System.Drawing.Point(311, 150);
+            this.button12.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(30, 21);
+            this.button12.Size = new System.Drawing.Size(43, 32);
             this.button12.TabIndex = 27;
             this.button12.UseVisualStyleBackColor = false;
             this.button12.Click += new System.EventHandler(this.UpdateColor);
@@ -287,10 +287,10 @@
             // 
             this.button13.BackColor = System.Drawing.Color.Red;
             this.button13.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button13.Location = new System.Drawing.Point(218, 127);
-            this.button13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button13.Location = new System.Drawing.Point(311, 190);
+            this.button13.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(30, 21);
+            this.button13.Size = new System.Drawing.Size(43, 32);
             this.button13.TabIndex = 25;
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.UpdateColor);
@@ -298,30 +298,30 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(158, 130);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(226, 195);
+            this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 12);
+            this.label13.Size = new System.Drawing.Size(77, 18);
             this.label13.TabIndex = 26;
             this.label13.Text = "Color 13";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(158, 159);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(226, 238);
+            this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(51, 12);
+            this.label14.Size = new System.Drawing.Size(77, 18);
             this.label14.TabIndex = 24;
             this.label14.Text = "Color 14";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(158, 77);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(226, 116);
+            this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(51, 12);
+            this.label11.Size = new System.Drawing.Size(77, 18);
             this.label11.TabIndex = 30;
             this.label11.Text = "Color 11";
             // 
@@ -329,10 +329,10 @@
             // 
             this.button11.BackColor = System.Drawing.Color.Red;
             this.button11.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button11.Location = new System.Drawing.Point(218, 72);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button11.Location = new System.Drawing.Point(311, 108);
+            this.button11.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(30, 21);
+            this.button11.Size = new System.Drawing.Size(43, 32);
             this.button11.TabIndex = 29;
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.UpdateColor);
@@ -340,40 +340,40 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(158, 104);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(226, 156);
+            this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(51, 12);
+            this.label12.Size = new System.Drawing.Size(77, 18);
             this.label12.TabIndex = 28;
             this.label12.Text = "Color 12";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(158, 185);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(226, 278);
+            this.label15.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(51, 12);
+            this.label15.Size = new System.Drawing.Size(77, 18);
             this.label15.TabIndex = 22;
             this.label15.Text = "Color 15";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(158, 212);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Location = new System.Drawing.Point(226, 318);
+            this.label16.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(51, 12);
+            this.label16.Size = new System.Drawing.Size(77, 18);
             this.label16.TabIndex = 20;
             this.label16.Text = "Color 16";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(30, 130);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(43, 195);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 12);
+            this.label5.Size = new System.Drawing.Size(77, 18);
             this.label5.TabIndex = 18;
             this.label5.Text = "Color 05";
             // 
@@ -381,10 +381,10 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Red;
             this.button5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button5.Location = new System.Drawing.Point(91, 125);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button5.Location = new System.Drawing.Point(130, 188);
+            this.button5.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(30, 21);
+            this.button5.Size = new System.Drawing.Size(43, 32);
             this.button5.TabIndex = 17;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.UpdateColor);
@@ -392,10 +392,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(30, 159);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(43, 238);
+            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 12);
+            this.label6.Size = new System.Drawing.Size(77, 18);
             this.label6.TabIndex = 16;
             this.label6.Text = "Color 06";
             // 
@@ -403,10 +403,10 @@
             // 
             this.button6.BackColor = System.Drawing.Color.Red;
             this.button6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button6.Location = new System.Drawing.Point(91, 154);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button6.Location = new System.Drawing.Point(130, 231);
+            this.button6.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(30, 21);
+            this.button6.Size = new System.Drawing.Size(43, 32);
             this.button6.TabIndex = 15;
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.UpdateColor);
@@ -414,10 +414,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(30, 185);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(43, 278);
+            this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 12);
+            this.label7.Size = new System.Drawing.Size(77, 18);
             this.label7.TabIndex = 14;
             this.label7.Text = "Color 07";
             // 
@@ -425,10 +425,10 @@
             // 
             this.button7.BackColor = System.Drawing.Color.Red;
             this.button7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button7.Location = new System.Drawing.Point(91, 181);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button7.Location = new System.Drawing.Point(130, 272);
+            this.button7.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(30, 21);
+            this.button7.Size = new System.Drawing.Size(43, 32);
             this.button7.TabIndex = 13;
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.UpdateColor);
@@ -436,10 +436,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(30, 212);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(43, 318);
+            this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 12);
+            this.label8.Size = new System.Drawing.Size(77, 18);
             this.label8.TabIndex = 12;
             this.label8.Text = "Color 08";
             // 
@@ -447,10 +447,10 @@
             // 
             this.button8.BackColor = System.Drawing.Color.Red;
             this.button8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button8.Location = new System.Drawing.Point(91, 208);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button8.Location = new System.Drawing.Point(130, 312);
+            this.button8.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(30, 21);
+            this.button8.Size = new System.Drawing.Size(43, 32);
             this.button8.TabIndex = 11;
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.UpdateColor);
@@ -458,10 +458,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 103);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(43, 154);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 12);
+            this.label4.Size = new System.Drawing.Size(77, 18);
             this.label4.TabIndex = 10;
             this.label4.Text = "Color 04";
             // 
@@ -469,10 +469,10 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button3.Location = new System.Drawing.Point(91, 72);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button3.Location = new System.Drawing.Point(130, 108);
+            this.button3.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(30, 21);
+            this.button3.Size = new System.Drawing.Size(43, 32);
             this.button3.TabIndex = 9;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.UpdateColor);
@@ -480,10 +480,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 77);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(43, 116);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 12);
+            this.label3.Size = new System.Drawing.Size(77, 18);
             this.label3.TabIndex = 8;
             this.label3.Text = "Color 03";
             // 
@@ -491,10 +491,10 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Red;
             this.button4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button4.Location = new System.Drawing.Point(91, 99);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button4.Location = new System.Drawing.Point(130, 148);
+            this.button4.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(30, 21);
+            this.button4.Size = new System.Drawing.Size(43, 32);
             this.button4.TabIndex = 7;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.UpdateColor);
@@ -502,10 +502,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 50);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(43, 75);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 12);
+            this.label2.Size = new System.Drawing.Size(77, 18);
             this.label2.TabIndex = 6;
             this.label2.Text = "Color 02";
             // 
@@ -513,10 +513,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button2.Location = new System.Drawing.Point(91, 45);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button2.Location = new System.Drawing.Point(130, 68);
+            this.button2.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(30, 21);
+            this.button2.Size = new System.Drawing.Size(43, 32);
             this.button2.TabIndex = 5;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.UpdateColor);
@@ -524,10 +524,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 23);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(43, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 12);
+            this.label1.Size = new System.Drawing.Size(77, 18);
             this.label1.TabIndex = 4;
             this.label1.Text = "Color 01";
             // 
@@ -540,8 +540,8 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(346, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(10, 3, 0, 3);
+            this.menuStrip1.Size = new System.Drawing.Size(494, 35);
             this.menuStrip1.TabIndex = 39;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -552,35 +552,35 @@
             this.saveToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(55, 20);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(84, 29);
             this.toolStripMenuItem1.Text = "Theme";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // loadToolStripMenuItem
             // 
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(154, 34);
             this.loadToolStripMenuItem.Text = "Load";
             this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(154, 34);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(154, 34);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(78, 29);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -588,9 +588,10 @@
             // 
             this.AddRegistry.BackColor = System.Drawing.Color.Azure;
             this.AddRegistry.FlatAppearance.BorderSize = 0;
-            this.AddRegistry.Location = new System.Drawing.Point(15, 330);
+            this.AddRegistry.Location = new System.Drawing.Point(21, 495);
+            this.AddRegistry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AddRegistry.Name = "AddRegistry";
-            this.AddRegistry.Size = new System.Drawing.Size(191, 23);
+            this.AddRegistry.Size = new System.Drawing.Size(218, 34);
             this.AddRegistry.TabIndex = 42;
             this.AddRegistry.Text = "2) Add to Registry";
             this.AddRegistry.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -613,9 +614,10 @@
             // 
             this.ApplyFont.BackColor = System.Drawing.Color.Azure;
             this.ApplyFont.FlatAppearance.BorderSize = 0;
-            this.ApplyFont.Location = new System.Drawing.Point(212, 379);
+            this.ApplyFont.Location = new System.Drawing.Point(303, 568);
+            this.ApplyFont.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ApplyFont.Name = "ApplyFont";
-            this.ApplyFont.Size = new System.Drawing.Size(109, 23);
+            this.ApplyFont.Size = new System.Drawing.Size(156, 34);
             this.ApplyFont.TabIndex = 45;
             this.ApplyFont.Text = "Apply Font";
             this.ApplyFont.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -633,9 +635,10 @@
             // 
             // selectedFont
             // 
-            this.selectedFont.Location = new System.Drawing.Point(105, 379);
+            this.selectedFont.Location = new System.Drawing.Point(150, 569);
+            this.selectedFont.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.selectedFont.Name = "selectedFont";
-            this.selectedFont.Size = new System.Drawing.Size(101, 21);
+            this.selectedFont.Size = new System.Drawing.Size(143, 28);
             this.selectedFont.TabIndex = 47;
             this.selectedFont.Text = "D2Coding";
             this.selectedFont.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -644,10 +647,10 @@
             // 
             this.labelfont.AutoSize = true;
             this.labelfont.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelfont.Location = new System.Drawing.Point(13, 384);
-            this.labelfont.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelfont.Location = new System.Drawing.Point(19, 576);
+            this.labelfont.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelfont.Name = "labelfont";
-            this.labelfont.Size = new System.Drawing.Size(38, 12);
+            this.labelfont.Size = new System.Drawing.Size(52, 18);
             this.labelfont.TabIndex = 35;
             this.labelfont.Text = "FONT";
             // 
@@ -655,10 +658,10 @@
             // 
             this.labelFontSize.AutoSize = true;
             this.labelFontSize.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelFontSize.Location = new System.Drawing.Point(12, 416);
-            this.labelFontSize.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelFontSize.Location = new System.Drawing.Point(17, 624);
+            this.labelFontSize.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelFontSize.Name = "labelFontSize";
-            this.labelFontSize.Size = new System.Drawing.Size(69, 12);
+            this.labelFontSize.Size = new System.Drawing.Size(94, 18);
             this.labelFontSize.TabIndex = 48;
             this.labelFontSize.Text = "FONT SIZE";
             // 
@@ -666,9 +669,10 @@
             // 
             this.ApplyFontSize.BackColor = System.Drawing.Color.Azure;
             this.ApplyFontSize.FlatAppearance.BorderSize = 0;
-            this.ApplyFontSize.Location = new System.Drawing.Point(212, 411);
+            this.ApplyFontSize.Location = new System.Drawing.Point(303, 616);
+            this.ApplyFontSize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ApplyFontSize.Name = "ApplyFontSize";
-            this.ApplyFontSize.Size = new System.Drawing.Size(109, 23);
+            this.ApplyFontSize.Size = new System.Drawing.Size(156, 34);
             this.ApplyFontSize.TabIndex = 49;
             this.ApplyFontSize.Text = "Apply Font Size";
             this.ApplyFontSize.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -677,11 +681,12 @@
             // 
             // textBoxFontSize
             // 
-            this.textBoxFontSize.Location = new System.Drawing.Point(105, 413);
+            this.textBoxFontSize.Location = new System.Drawing.Point(150, 620);
+            this.textBoxFontSize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxFontSize.Name = "textBoxFontSize";
-            this.textBoxFontSize.Size = new System.Drawing.Size(101, 21);
+            this.textBoxFontSize.Size = new System.Drawing.Size(143, 28);
             this.textBoxFontSize.TabIndex = 50;
-            this.textBoxFontSize.Text = "12";
+            this.textBoxFontSize.Text = "14";
             this.textBoxFontSize.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBoxFontSize.TextChanged += new System.EventHandler(this.textBoxFontSize_TextChanged);
             // 
@@ -689,10 +694,11 @@
             // 
             this.buttonModifyDLLauto1.BackColor = System.Drawing.Color.Aquamarine;
             this.buttonModifyDLLauto1.FlatAppearance.BorderSize = 0;
-            this.buttonModifyDLLauto1.Font = new System.Drawing.Font("Gulim", 11F);
-            this.buttonModifyDLLauto1.Location = new System.Drawing.Point(211, 274);
+            this.buttonModifyDLLauto1.Font = new System.Drawing.Font("Gulim", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.buttonModifyDLLauto1.Location = new System.Drawing.Point(249, 411);
+            this.buttonModifyDLLauto1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonModifyDLLauto1.Name = "buttonModifyDLLauto1";
-            this.buttonModifyDLLauto1.Size = new System.Drawing.Size(109, 79);
+            this.buttonModifyDLLauto1.Size = new System.Drawing.Size(208, 118);
             this.buttonModifyDLLauto1.TabIndex = 51;
             this.buttonModifyDLLauto1.Text = "Apply AUTO";
             this.buttonModifyDLLauto1.UseVisualStyleBackColor = false;
@@ -702,9 +708,10 @@
             // 
             this.linkLabel01.AutoSize = true;
             this.linkLabel01.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.linkLabel01.Location = new System.Drawing.Point(137, 446);
+            this.linkLabel01.Location = new System.Drawing.Point(196, 669);
+            this.linkLabel01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel01.Name = "linkLabel01";
-            this.linkLabel01.Size = new System.Drawing.Size(184, 12);
+            this.linkLabel01.Size = new System.Drawing.Size(265, 18);
             this.linkLabel01.TabIndex = 52;
             this.linkLabel01.TabStop = true;
             this.linkLabel01.Text = "Link to D2Coding Font webpage";
@@ -712,10 +719,10 @@
             // 
             // ThemeEditorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(346, 490);
+            this.ClientSize = new System.Drawing.Size(494, 735);
             this.Controls.Add(this.linkLabel01);
             this.Controls.Add(this.buttonModifyDLLauto1);
             this.Controls.Add(this.textBoxFontSize);
@@ -732,7 +739,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.Name = "ThemeEditorForm";
             this.Text = "VBE Theme Editor (O2019) v2.1";
             this.Load += new System.EventHandler(this.ThemeEditorForm_Load);
